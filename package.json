@@ -1,0 +1,10 @@
+{
+  "name": "student-cert-blockchain",
+  "private": true,
+  "scripts": {
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm run dev",
+    "start:all": "npm run start:backend & npm run start:frontend",
+    "install:all": "cd frontend && npm install && cd ../backend && npm install"
+  }
+}
